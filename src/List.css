@@ -1,0 +1,134 @@
+/* src/List.css */
+
+.create-list-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.create-list-btn {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.create-list-btn:hover {
+  background-color: #2980b9;
+}
+
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+/* List.css */
+
+.new-list-card {
+  border: 2px dashed #888; /* Example border style */
+  padding: 10px;
+  margin: 10px;
+  background-color: #f0f0f0; /* Example background color */
+  /* Add any other styling you want for the new empty list container */
+}
+
+
+.update-btn {
+  background-color: #3498db;
+  color: white;
+  /* Add any other styles you want for the blue button */
+}
+
+.new-list-card h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.new-list-card p {
+  color: #555;
+  font-size: 14px;
+}
+
+
+.list-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px;
+  background-color: #c5e0ea;
+  width: 250px; /* Adjust the width as needed */
+  max-height: 450px; /* Set the desired max height for the card */
+  overflow-y: auto; /* Enable vertical scrolling if content exceeds the height */
+}
+
+.error-message {
+  color: red; /* Set the error message text color to red */
+  margin-top: 8px; /* Adjust the margin as needed */
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.card span {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.card p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.list-header {
+  display: flex;
+  align-items: center;
+}
+
+.list-header input {
+  margin-right: 8px;
+}
+
+.list-item {
+  margin: 8px 0;
+}
+
+.list-creation-view {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.list-creation-view button {
+  padding: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+/* src/List.css */
+
+.empty-list-container {
+  border: 2px dashed #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.empty-list-text {
+  font-weight: bold;
+  color: #888;
+}
+
+
+/* Media Query for Small Screens (Phones) */
+@media screen and (max-width: 767px) {
+  .list-card {
+    width: 100%; /* Adjust the width for small screens */
+  }
+}
